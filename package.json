@@ -1,0 +1,27 @@
+{
+  "name": "brink-mockups",
+  "version": "1.0.0",
+  "description": "mockup site for Brink Technology LTD.",
+  "main": "index.js",
+  "scripts": {
+    "develop": "browser-sync start --server",
+    "deploy": "surge ./ brink-tech-mockups.surge.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/derek-findthebrink/brink-mockups.git"
+  },
+  "author": "Brink Technology LTD.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/derek-findthebrink/brink-mockups/issues"
+  },
+  "homepage": "https://github.com/derek-findthebrink/brink-mockups#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.14"
+  },
+  "dependencies": {
+    "surge": "^0.21.7"
+  }
+}
