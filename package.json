@@ -4,7 +4,7 @@
   "description": "mockup site for Brink Technology LTD.",
   "main": "index.js",
   "scripts": {
-    "develop": "browser-sync start --server",
+    "develop": "browser-sync start --server --extensions html -w",
     "deploy": "surge ./ brink-tech-mockups.surge.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
